@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de pàgina amb barra de navegació</title>
+
+  <!-- Importar la font Poppins de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Estils globals */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Barra de navegació */
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    /* Títols */
+    h1, h2 {
+      color: #333;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #555;
+    }
+
+    /* Contingut */
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegació -->
+  <nav>
+    <a href="#inici">Inici</a>
+    <a href="#felix-and-hervert">Felix and Hervert</a>
+    <a href="#flappy-bird">Flappy Bird</a>
+    <a href="#breakout-game">Breakout Game</a>
+  </nav>
+
+  <!-- Contingut principal -->
+  <div class="content" id="inici">
+    <h1>TOTS ELS MEUS JOCS AMB SCRATH</h1>
+    <h2>fets a l'optativa de Game&Code</h2>
+  </div>
+  <div class="content" id="felix-and-hervert">
+    <h2>Joc <strong>Felix and Hervert</strong></h2>
+    <iframe src="https://scratch.mit.edu/projects/1083336227/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class="content" id="flappy-bird">
+    <h2>Joc <strong>Flappy Bird</strong></h2>
+    <iframe src="https://scratch.mit.edu/projects/1086251518/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+  <div class="content" id="breakout-game">
+    <h2>Joc <strong>Breakout</strong></h2>
+    <iframe src="https://scratch.mit.edu/projects/1096397153/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
